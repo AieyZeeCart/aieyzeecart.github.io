@@ -251,6 +251,10 @@ a {
         display: none !important;
     }
 }
+.app {
+animation: 3s ease-in-out 1s infinite alternate forwards;
+
+}
 </style>
 </head>
 
@@ -283,7 +287,12 @@ a {
     </div>
     <div class="panel" style="text-align:center">
         <h1>Buy Now!</h1>
-        <h2>Open for additional advertisements</h2>
+        <nav class="app">
+            <img src="NETFLIX.png" width="50px" onclick="showPage('shop')">
+            <img src="CANVA.png" width="50px" onclick="showPage('shop')">
+            <img src="CAPCUT.png" width="50px" onclick="showPage('shop')">
+            <img src="CHATGPT.png" width="50px" onclick="showPage('shop')">
+        </nav>
     </div>
 </section>
 
@@ -350,7 +359,7 @@ a {
 <!-- RECEIPT -->
 <section id="receiptPage" class="page">
     <div id="receipt" class="receipt">
-        <h2>PIXELMART RECEIPT</h2>
+        <h2>AIEZEECART RECEIPT</h2>
         <p style="text-align:center">Thank you for shopping with us!</p>
 
         <p><strong>Receipt No.:</strong> <span id="receiptNumber"></span></p>
